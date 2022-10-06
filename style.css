@@ -1,0 +1,31 @@
+body{
+    background-color: #bbd7fe;
+    display: flex;
+  
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 20px;
+}
+#texts{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn{
+    cursor: pointer;
+    margin-top: 10px;
+    padding: 8px;
+    background-color: #24c579;
+     border: 1px solid white;
+     border-radius: 30px;
+    font-size: 20px;
+     color: white;
+}
